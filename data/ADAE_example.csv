@@ -1,0 +1,2 @@
+image_name,patient_id,lesion_id,age_approx,anatom_site_general,benign_malignant,diagnosis_confirm_type,sex
+ISIC_0074542,IP_4698288,IL_5017890,25,lower extremity,benign,single image expert consensus,male

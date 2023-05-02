@@ -1,0 +1,13 @@
+torch==1.7.0
+albumentations==0.4.6
+geffnet==0.9.8
+resnest==0.0.6b20200823
+pretrainedmodels==0.7.4
+imagesize==1.2.0
+isicarchive==0.4.11
+kaggle==1.5.9
+pandas==0.24.2
+pillow==7.2.0
+scikit_learn==0.23.2
+tqdm==4.31.1
+-e git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git#egg=pytorch-gradual-warmup-lr

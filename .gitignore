@@ -1,0 +1,5 @@
+# reject __pycache__
+/__pycache__
+
+# do not include path files
+*.pth
