@@ -16,10 +16,11 @@ from tqdm import tqdm
 sigmoid = nn.Sigmoid()
 
 def get_transforms(image_size):
-
     return albumentations.Compose([
-        albumentations.Resize(image_size, image_size),
-        albumentations.Normalize()])
+        albumentations.SmallestMaxSize(image_size),
+        albumentations.CenterCrop(image_size, image_size),
+        albumentations.Normalize()
+    ])
 
 
 class MelanomaDataset(Dataset):
